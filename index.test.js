@@ -1,7 +1,6 @@
 const Calc = require('./calc.js');
 const assert = require('assert');
 
-
 describe('Testin calc', function() {
     let sum = Calc.taylor(1);
     it('should have taylor function defined', function() { assert.equal(typeof Calc.taylor, 'function');});

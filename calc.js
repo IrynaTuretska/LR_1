@@ -1,4 +1,4 @@
-function taylor(n) {
+function taylorA(n) {
     
     n = 3;
     let num, mul, cal, sum = 0;
@@ -19,4 +19,4 @@ function taylor(n) {
 }
 
 
-module.exports.taylor = taylor;
+module.exports.taylorA = taylorA;
